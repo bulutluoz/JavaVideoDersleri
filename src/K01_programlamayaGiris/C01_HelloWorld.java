@@ -1,4 +1,4 @@
-package K1_programlamayaGiris;
+package K01_programlamayaGiris;
 
 public class C01_HelloWorld {
 
