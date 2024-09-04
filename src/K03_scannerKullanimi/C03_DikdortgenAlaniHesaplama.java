@@ -1,4 +1,4 @@
-package K03_ScannerKullanimi;
+package K03_scannerKullanimi;
 
 import java.util.Scanner;
 

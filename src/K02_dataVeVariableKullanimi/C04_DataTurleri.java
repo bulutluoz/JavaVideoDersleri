@@ -1,4 +1,4 @@
-package K02_DataVeVariableKullanimi;
+package K02_dataVeVariableKullanimi;
 
 public class C04_DataTurleri {
 
