@@ -8,23 +8,16 @@ public class C04_contains {
 
         /*
             Verilen bir String'in istenen bir harf
-            veya metni icerip icermedigini anlamak icin kullanilir
+            veya metni icerip icermedigini kontrol etmek icin kullanilir
          */
 
-        System.out.println(str.contains("a")); //
+        System.out.println(str.contains("a")); // true
 
-        System.out.println(str.contains("H")); //
+        System.out.println(str.contains("H")); // true
 
         /*
            contains method'u aranan harf veya metnin kac kere kullanildigi ile ILGILENMEZ
          */
-
-
-
-
-
-
-
 
 
         // Hayatin her asamasinda Java kullanilir.
@@ -34,21 +27,21 @@ public class C04_contains {
              ve metinde kullanildigi sekilde arar
          */
 
-        System.out.println(str.contains("k")); //
+        System.out.println(str.contains("k")); // true
 
-        System.out.println(str.contains("her")); //
+        System.out.println(str.contains("her")); // true
 
-        System.out.println(str.contains("r a")); //
+        System.out.println(str.contains("r a")); // true
 
-        System.out.println(str.contains("ra")); //
+        System.out.println(str.contains("ra")); // false
 
-        System.out.println(str.contains("H y")); //
+        System.out.println(str.contains("H y")); // false
 
-        System.out.println(str.contains("A")); //
+        System.out.println(str.contains("A")); // false
 
-        System.out.println(str.contains("Java")); //
+        System.out.println(str.contains("Java")); // true
 
-        System.out.println(str.contains("java")); //
+        System.out.println(str.contains("java")); // false
 
 
 
