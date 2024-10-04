@@ -15,7 +15,27 @@ public class C04_MetinDegistirme {
         String metin = scanner.nextLine();
 
 
+        int uzunluk = metin.length();
 
+        if (uzunluk % 2 == 0){ // uzunluk cift
+
+            System.out.println(
+
+                    metin.substring(0,uzunluk/2) +
+                    ":)"+
+                    metin.substring(uzunluk/2)
+            );
+
+        }else{ // uzunluk tek
+
+            System.out.println(
+
+                    metin.substring(0,uzunluk/2)+
+                    ":(" +
+                    metin.substring(uzunluk/2+1)
+            );
+
+        }
 
 
     }
